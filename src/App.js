@@ -5,7 +5,7 @@ import Button from './components/Formulario/Button/Button';
 import Formulario from './components/Formulario/Formulario';
 import CartWidget from './components/CartWidget/CartWidget';
 import Navbar from './components/Navbar/Navbar';
-/* importar el item list container, el navbar y el cartwidget */
+
 
 function App() {
   return (
