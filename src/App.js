@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Title from './components/Title/Title.js';
+import Button from './components/Formulario/Button/Button';
+import Formulario from './components/Formulario/Formulario';
+import CartWidget from './components/CartWidget/CartWidget';
+import Navbar from './components/Navbar/Navbar';
+/* importar el item list container, el navbar y el cartwidget */
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <div className='divNav'>
+          <CartWidget />
+          <Navbar />
+        </div>
+        {/* <Formulario /> */}
       </header>
+      <Title greeting="Saludo" className="Titulo"/>
     </div>
   );
 }
