@@ -1,10 +1,10 @@
-import iconoecommerce from './iconoecommerce.png';
+import carrito from './carrito.png';
 import "./style.css";
 
 const CartWidget = () => {
   return (
-    <div className='divIcono'>
-        <img src={iconoecommerce} className="Icono"/>
+    <div className='divCarrito'>
+        <img src={carrito} className="Carrito"/>
         5
     </div>
   )

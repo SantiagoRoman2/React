@@ -1,0 +1,9 @@
+.Logo {
+    height: 65px;
+    width: 65px;
+    align-self: center;
+}
+
+.divLogo {
+    display: flex;
+}

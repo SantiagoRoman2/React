@@ -1,5 +1,5 @@
 
-/* importar el cart widget */
+
 import CartWidget from "../CartWidget/CartWidget";
 
 import "./style.css";
