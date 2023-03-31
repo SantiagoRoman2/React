@@ -24,7 +24,7 @@ export const array = [
         price: 59.999,
         pictureUrl: "../img/Germany2006.jpg",
         category: "retro",
-        stock: 7,
+        stock: 6,
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const array = [
         price: 59.999,
         pictureUrl: "../img/Sudafrica2010.jpg",
         category: "moderna",
-        stock: 10,
+        stock: 12,
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const array = [
         price: 59.999,
         pictureUrl: "../img/Brazil2014.jpg",
         category: "moderna",
-        stock: 12,
+        stock: 14,
     }
     ,
     {
@@ -52,6 +52,6 @@ export const array = [
         price: 59.999,
         pictureUrl: "../img/Russia2018.jpg",
         category: "moderna",
-        stock: 15,
+        stock: 18,
     }
 ]
