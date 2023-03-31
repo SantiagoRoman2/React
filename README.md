@@ -3,7 +3,7 @@
 
 # Desarrollador: Santiago Román
 
-![image](public/img/Screenshot%20Ecommerce.png)
+![gif](public/img/VideoEcommerce.gif.mp4)
 
 # Getting Started with Create React App
 
