@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Este proyecto se trata de una tienda de pelotas oficiales de la FIFA.
 
 # Desarrollador: Santiago Román
@@ -10,6 +11,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+=======
+Este proyecto se trata de una tienda de pelotas oficiales de la FIFA.
+
+Desarrollador: Santiago Román
+
+![image](public/img/Screenshot%20Ecommerce.png)
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+>>>>>>> b1e2a7841b6f6ec5afed1f9bd469f1fc69d0d102
 In the project directory, you can run:
 
 ### `npm start`
