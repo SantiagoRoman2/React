@@ -1,0 +1,23 @@
+#Titulo {
+    padding: 5vh 0vh;
+    margin-top: 75px;
+}
+
+h5 {
+    margin-top: 125px;
+}
+
+.link {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+h6 {
+    margin-top: 75px;
+    color: rgb(165, 165, 165);
+}

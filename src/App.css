@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "KdamThmorPro-Regular";
+  src: url(../fonts/KdamThmorPro-Regular.ttf);
+}
+
+body {
+  animation-name: Opacidad;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+  font-family: "KdamThmorPro-Regular";
+  background-color: black;
+}
+
+@keyframes Opacidad {
+  from {
+      opacity: 0%;
+  }
+  to {
+      opacity: 100%;
+  }
+}

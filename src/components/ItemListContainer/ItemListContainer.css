@@ -1,0 +1,25 @@
+div {
+    color: white;
+}
+
+#Titulo {
+    padding: 5vh 0vh;
+}
+
+#item-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#Item{
+    margin: 30px 50px;
+    color: black;
+    font-size: 2vh;
+}
+
+#ver{
+    color: white;
+    text-decoration: none;
+}
