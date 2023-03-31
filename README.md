@@ -3,7 +3,7 @@
 
 # Desarrollador: Santiago Román
 
-![gif](public/img/Video2Ecommerce.gif.mp4)
+![gif](public/img/Video2Ecommerce.gif.gif)
 
 # Getting Started with Create React App
 
