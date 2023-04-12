@@ -1,13 +1,16 @@
 import React from 'react'
 import ItemCount from './ItemCount/ItemCount'
 import { Link } from "react-router-dom"
+import { useCartContext } from '../Cart/CartContext'
 
 const initial = 1
 
 export const ItemDetail = ({title, description, price, pictureUrl, stock}) => {
+    const {addProduct} = useCartContext();
 
     const onAdd = (count) => {
-        alert("Agregaste " + count + " items al carrito")
+        alert("Agregaste " + count + " items al carrito");
+        addProduct(data, count);
     }
 
     return (

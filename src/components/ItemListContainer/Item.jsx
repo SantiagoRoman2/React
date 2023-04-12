@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { Card, Button } from 'react-bootstrap'
 import { Link } from "react-router-dom"
+import { CartContext } from '../Cart/CartContext'
 
 
 export const Item = ({id, title, description, price, pictureUrl}) => {
