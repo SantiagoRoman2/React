@@ -1,6 +1,6 @@
 import React from 'react'
 import { getArray } from '../helpers/getArray';
-import { array } from '../../data/data';
+import { products } from '../../data/data';
 import './ItemListContainer.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -15,7 +15,7 @@ const ItemListContainer = ({}) => {
 
     useEffect(() => {
         setLoading(true)
-        getArray(array)
+        getArray(products)
             .then(res => {
                 categoryId?
                     setItems (res.filter((item) => item.category === categoryId))

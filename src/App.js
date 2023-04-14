@@ -6,13 +6,14 @@ import Cart from './components/Cart/Cart';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import TestConsulta from './components/firebase/TestConsulta';
 import TestConsCol from './components/firebase/TestConsCol';
-import CartProvider from './components/Cart/CartContext';
+import { CartContextProvider } from './context/CartContext';
+
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <CartProvider>
+        <CartContextProvider >
           <NavBar />
           <Routes>
             <Route path='/' element={<ItemListContainer/>}/>
@@ -22,7 +23,7 @@ function App() {
             <Route path='/test' element={<TestConsulta/>}/>
             <Route path='/testcol' element={<TestConsCol/>}/>
           </Routes>
-        </CartProvider>
+        </CartContextProvider >
       </BrowserRouter>
     </>
   );

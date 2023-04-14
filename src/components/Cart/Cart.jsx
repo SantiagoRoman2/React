@@ -1,18 +1,35 @@
-import React from 'react'
-import './Cart.css'
-import { Link } from "react-router-dom"
-import CartProvider from './CartContext'
+import React, { useState, useContext } from 'react';
+import CartContext from '../../context/CartContext';
+
 
 function Cart() {
-    return (
-        <div>
-            <center>
-                <h3 id='Titulo'>Carrito de Compras</h3>
-                <h6>No hay items en el carrito.</h6>
-                <Link className='link' to={"/"}><h5>Volver a la Tienda</h5></Link>
-            </center>
-        </div>
-    )
+  const [products, setProducts] = useState([]);
+
+  const { cart, clearCart, removeItem, total } = useContext(CartContext);
+  console.log('total', total)
+
+  return (
+    <div>
+      {
+        cart.map ((product, key) => (
+          <div 
+          style={{display: 'flex', flexDirection: 'row', width: '300px', just6ifyContent:'space-between'}} 
+          key={key}>
+            <img src={product.pictureUrl} style={{width:'100px', height:'100px'}} alt="" />
+            <h2> {product.title} </h2>
+            <h5> {product.cantidad} </h5>
+            <button onClick={() => removeItem(product.id)}> X </button>
+          </div>
+        ))
+      }
+      {
+        cart.length > 0 && <button onClick={clearCart}> Vaciar carrito </button>
+      }
+      <h2><center> Carrito de compras </center></h2>
+      <p><center> Total: ${total} </center></p>
+      
+    </div>
+  );
 }
 
-export default Cart
+export default Cart;

@@ -1,10 +1,10 @@
 import React, {useContext} from 'react'
 import { Card, Button } from 'react-bootstrap'
 import { Link } from "react-router-dom"
-import { CartContext } from '../Cart/CartContext'
+import { CartContext } from '../../context/CartContext'
 
 
-export const Item = ({id, title, description, price, pictureUrl}) => {
+export const Item = ({ id, title, description, price, pictureUrl, onAddToCart }) => {
     return (
         <>
         <Card style={{ width: '18rem' }} id="Item">
